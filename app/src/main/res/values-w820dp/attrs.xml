@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TwoDirectionsProgressBar">
+        <attr name="progress_unreached_color" format="color" />
+        <attr name="progress_right_reached_color" format="color" />
+        <attr name="progress_left_reached_color" format="color" />
+        <attr name="progress_reached_bar_height" format="dimension" />
+        <attr name="progress_unreached_bar_height" format="dimension" />
+        <attr name="progress_left" format="integer"/>
+    </declare-styleable>
+
+</resources>  

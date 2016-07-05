@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.lgk.twodirectionprogressbar.MainActivity">
+
+    <com.lgk.twodirectionprogressbar.customedview.TwoDirectionsProgressBar
+        android:layout_centerInParent="true"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:progress_unreached_color="#cccccc"
+        app:progress_right_reached_color="#fc501e"
+        app:progress_left_reached_color="#49b5e1"
+        android:progress="50"
+        app:progress_left="30"
+        android:max="100"
+        />
+</RelativeLayout>
